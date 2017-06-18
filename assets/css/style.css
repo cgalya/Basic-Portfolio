@@ -1,0 +1,242 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("seigaiha.png");
+	width: 1400px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+section{
+	flex: 1;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: 3px solid #cccccc;
+	margin: 0px;
+	width: 1440px;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 20px;
+	margin: 0px 525px 0px 144px;
+	width: 215px;
+	text-align: center;
+	display: inline-block;
+	font-size: 33px;
+}
+
+nav {
+	display: inline-block;
+	color: #cccccc;
+	padding-top: 28px;
+	vertical-align: top;
+}
+
+nav a {
+	text-decoration: none;
+	color: #cccccc;
+	padding: 10px;
+}
+
+.content {
+	background-color: #ffffff;
+	margin: 36px 39px 38px 144px;
+	width: 650px;
+	padding-top: 28px;
+	padding-left: 28px;
+	padding-right: 28px;
+	padding-bottom: 20px;
+	display: inline-block;
+	border: solid 1px #dddddd;
+}
+
+h2 {
+	border-bottom: 3px solid #cccccc;
+	padding-bottom: 32px;
+	margin: 0px 0px 29px 0px;
+	color: #4aaaa5;
+	font-size: 30px;
+}
+
+#pic {
+	margin-left: 26px;
+	margin-right: 24px;
+	float: left;
+	margin: 0px 28px 19px 0px;
+}
+
+.paragraph {
+	line-height: 30px;
+}
+
+#two {
+	margin-top: 20px;
+}
+
+#catone {
+	background-image: url("catone.jpg");
+	height: 150px;
+	width: 200px;
+	margin-left: 80px;
+	float: left;
+	text-decoration: none;
+}
+
+#catone p {
+	background: #4aaaa5;
+	margin-top: 100px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+#cattwo {
+	background-image: url("cattwo.jpg");
+	height: 150px;
+	width: 200px;
+	margin-left: 80px;
+	float: left;
+	text-decoration: none;
+}
+
+#cattwo p {
+	background: #4aaaa5;
+	margin-top: 100px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+#catthree {
+	background-image: url("catthree.jpg");
+	height: 150px;
+	width: 200px;
+	margin-left: 80px;
+	float: left;
+	text-decoration: none;
+	margin-top: 30px;
+}
+
+#catthree p {
+	background: #4aaaa5;
+	margin-top: 100px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+#catfour {
+	background-image: url("catfour.jpg");
+	height: 150px;
+	width: 200px;
+	margin-left: 80px;
+	float: left;
+	text-decoration: none;
+	margin-top: 30px;
+}
+
+#catfour p {
+	background: #4aaaa5;
+	margin-top: 100px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+#catfive {
+	background-image: url("catfive.jpg");
+	height: 150px;
+	width: 200px;
+	margin-left: 80px;
+	float: left;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#catfive p {
+	background: #4aaaa5;
+	margin-top: 100px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+input {
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+textarea {
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+#submit {
+	border: none;
+	font-size: 15px;
+	color: #ffffff;
+	background: #4aaaa5;
+	width: 100px;
+	margin-top: 5px;
+}
+
+::-webkit-input-placeholder {
+	color: #cccccc;
+}
+
+.connect {
+	background-color: #ffffff;
+	padding: 28px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 36px;
+	border: solid 1px #dddddd;
+}
+
+h3 {
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 22px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: #4aaaa5;
+	font-size: 22px;
+}
+
+.logo {
+	padding: 3px;
+}
+
+footer {
+	background-color: #666666;
+	text-align: center;
+	height: 50px;
+	color: #cccccc;
+	font-size: 13px;
+	padding-top: 27px;
+	border-top: 5px solid #4aaaa5;
+	width: 1440px;
+}
+
+a:visited {
+	color: #6e25db;
+}
+
+a:hover {
+	color: #e662db;
+}
+
+
+
+
